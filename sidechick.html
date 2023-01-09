@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="teststyle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script src="https://kit.fontawesome.com/c91231842c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="vanta-canvas"></div>
+    <script>
+    window.addEventListener('DOMContentLoaded', () => {
+    VANTA.NET({
+    el: "#vanta-canvas",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 1000.00,
+    minWidth: 900.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0xbbbbbb,
+    backgroundColor: 0xe0e0f,
+    points: 8.00,
+    spacing: 19.00
+    })
+})
+    </script>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/trial logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p><mark style="background-color: gray";>Full Stack Web Developer</mark></p>
+                <h1><mark style="background-color: gray";>Hi! I'm <span>Carlos Mahusay</span> From The Philippines<span>.</span></mark></h1>
+                
+        </div>
+    </div>
+
+<!-----------------------------about----------------------------->   
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About<span> Me</span></h1>
+                    <p>As a high school graduate with 4 years of experience in the workforce, I have demonstrated strong capabilities in marketing, particularly in the areas of SEO 
+                        and social media. Recently, I have decided to pursue a new career in technology and am currently enrolled in StackTrek's bootcamp to become a full stack developer. 
+                        With my strong foundation in marketing and dedication to learning new skills, I am well-equipped to succeed in this exciting and rapidly-growing field.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>                       
+                    </div>
+                    
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Front-End</span><br>Use of HTML and CSS</li>
+                                <li><span>Back-End</span><br>Algorithms and Data Structures</li>
+                                <li><span>Databases</span><br>MongoDB</li>
+                                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>SEO</span><br>Creating SEO-friendly pages</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - 2022</span><br>Marketing/SEO Lead</li>     
+                                <li><span>2022 - 2023</span><br>StackTrek Bootcamp</li>            
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016</span><br>HighSchool</li>
+                                <li><span>2022-2023</span><br>StackTrek Bootcamp</li>                           
+                            </ul>
+                        </div>               
+                </div>      
+        </div>
+    </div>
+</div>
+<!-------services------------>>
+<div id="services">
+    <div class="container">
+        <H1 class="sub-title">My Services</H1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Using creative and software engineering/programming skills to design, build and improve websites.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX</h2>
+                <p>Identifying new opportunities to create better user experiences</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-google"></i>
+                <h2>Search Engine Optimization</h2>
+                <p>Using research and analysis to improve a website's ranking on search engines like Google.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-----------Portfolio------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Purple Neon Illustration Game Mode Mouse Pad (1).png" >
+                <div class="layer">
+                    <h3>Text Based Adventure Game</h3>
+                    <p>A text based adventure game made in Python.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Purple Neon Illustration Game Mode Mouse Pad (2).png" >
+                <div class="layer">
+                    <h3>Quiz Game</h3>
+                    <p>A text based quiz game made in Python.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Purple Neon Illustration Game Mode Mouse Pad.png" >
+                <div class="layer">
+                    <h3>Hangman Game</h3>
+                    <p>A hangman game made entirely from Python.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>  
+        <a href="#" class="btn" style="text-decoration:none">See more</a>  
+    </div>
+</div>
+<br><br><br><br><br>
+
+<!-----------------------------contact----------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>notcarlosmahusay@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>0123456789</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/kaku.codes/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/carlos-mahusay-8995a3213/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="" download class="btn btn2" style="text-decoration:none">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }        
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }        
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+</script>
+
+
+
+
+</body>
+</html>

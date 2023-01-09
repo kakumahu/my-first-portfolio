@@ -1,0 +1,2 @@
+even.currentTarget.classList.add("class-link");
+        document.getElementById(tabname).classList.add("active-tab");
